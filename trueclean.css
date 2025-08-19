@@ -1,0 +1,331 @@
+@font-face {
+  font-family: "Raleway Bold";
+  src: url("raleway-bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Hussar Bold";
+  src: url("HussarBoldWeb-bf92.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Helvetica-Bold";
+  src: url("Helvetica-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Josefin Bold Italic";
+  src: url("josefin-sans-bold-italic.woff2") format("woff2"),
+       url("josefin-sans-bold-italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Lato Thin";
+  src: url("lato-thin.woff2") format("woff2"),
+       url("lato-thin.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Lato Heavy";
+  src: url("lato-heavy.woff2") format("woff2"),
+       url("lato-heavy.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Lato Medium";
+  src: url("lato-medium.woff2") format("woff2"),
+       url("lato-medium.woff") format("woff");
+}
+
+::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+    background: #290b00;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #df9a67;
+    -webkit-border-radius: 1ex;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+}
+
+table, th, td {
+       border: 1px solid #000000;
+       border-collapse: collapse;
+   }
+
+th, td {
+	width: 15%;
+	padding: 20px;
+	text-align: left;
+	font-family: "Helvetica-Bold", serif; font-size:20px;
+}
+
+th#testpush {
+	width: 15%;
+	padding: 20px;
+	text-align: center;
+	font-family: "Helvetica-Bold", serif; font-size:20px;
+	color: #FFFFFF;
+	background-color: #FF9999;
+}
+
+@font-face {
+  font-family: "Lato Medium";
+  src: url("lato-medium.woff2") format("woff2"),
+       url("lato-medium.woff") format("woff");
+}
+
+.HibikiGanahaBackground {
+	background-color:#1ec4c9;
+}
+
+.TrueCleanBackground {
+	background-color:#FFFF99;
+}
+
+.sessionDiv {
+	border-radius: 10px;
+	border: 1px solid #c4c91e;
+}
+
+.arPortalLabel {
+	color: #c4c91e;
+	font-family: "Josefin Bold Italic", serif; font-size:36px;
+}
+
+.trueCleanLabel {
+	user-select: none;
+	color: #ad1f1e;
+	font-family: "Raleway Bold", serif; font-size:36px;
+}
+
+.serviceTitleLabel {
+	user-select: none;
+	color: #ad1f1e;
+	font-family: "Lato Heavy", serif; font-size:24px; 
+}
+
+.serviceSubtitleLabel {
+	user-select: none;
+	color: #ad1f1e;
+	font-family: "Lato Medium", serif; font-size:24px; 
+}
+
+.serviceDescriptionLabel {
+	user-select: none;
+	font-family: "Lato Thin", serif; font-size:24px; 
+}
+
+.serviceDescriptionInactiveLabel {
+	color: #ffffff;
+	user-select: none;
+	font-family: "Lato Thin", serif; font-size:24px; 
+}
+
+.serviceDivActive {
+	background-color: #ffffff;
+}
+
+.serviceDivInactive {
+	background-color: rgba(51, 170, 51, 0);
+}
+
+.userNameLabel {
+	font-family: "Josefin Bold Italic", serif; font-size:36px;
+}
+
+.customHeavyLabel {
+	font-family: "Lato Heavy", serif; font-size:36px;
+}
+
+.customInfoLabel {
+	font-family: "Lato Medium", serif; font-size:20px;
+}
+
+.customLabel {
+	font-family: "Lato Thin", serif; font-size:20px;
+}
+
+.subTitleLabel {
+	font-family: "Lato Thin", serif; font-size:12px;
+}
+
+.profile {
+	text-align: right;
+}
+
+.center {
+	text-align: center;
+}
+
+.button {
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.buttonSuaveGreen {
+	color: green;
+	border-radius: 15px;
+	background-color: #99FF99;
+	font-family: "Lato Medium", serif; font-size:20px;
+} /* Suave Red */
+
+.buttonSuaveRed {
+	color: red;
+	border-radius: 15px;
+	background-color: #FF9999;
+	font-family: "Lato Medium", serif; font-size:20px;
+} /* Red */
+
+.buttonHibikiBlue {
+	color: #1ec4c9;15color: #ffffff;
+	px;
+	background-color: #99FFFF;
+	font-family: "Lato Medium", serif; font-size:20px;
+} /* Hibiki Ganaha Blue */
+
+.buttonBookNow {
+	border-radius: 15px;
+	background-color: #ad1f1e; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 96px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: "Lato Heavy", serif; font-size:20px;
+} /* Hibiki Ganaha Blue */
+
+.modalcontainer {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  background-color: #ffffff;
+  padding: 0px;
+}
+.modalcontainer > div {
+  background-color: #ffffff;
+  border: 0vh solid #ffffff;
+  padding: 0px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.mobilecolcontainer {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-row-gap: 0em;
+  background-color: #ffffff;
+  padding: 0px;
+}
+.mobilecolcontainer > div {
+  background-color: #ffffff;
+  border: 0vh solid #ffffff;
+  padding: 0px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.modalcolcontainer {
+  display: grid;
+  grid-template-columns: 100%;
+  background-color: #ffffff;
+  padding: 0px;
+}
+.modalcolcontainer > div {
+  background-color: #ffffff;
+  border: 0vh solid #ffffff;
+  padding: 0px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.modalbuttcontainer {
+  display: grid;
+  grid-template-columns: 65% 35%;
+  background-color: #ffffff;
+  padding: 0px;
+}
+.modalbuttcontainer > div {
+  background-color: #ffffff;
+  border: 0vh solid #ffffff;
+  padding: 0px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.plusminuscontainer {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  background-color: #000000;
+  padding: 0px;
+}
+.plusminuscontainer > div {
+  background-color: #000000;
+  border: 0vh solid #ffffff;
+  padding: 0px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.modalfirstordercontainer {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  background-color: #ffffff;
+  padding: 0px;
+}
+.modalfirstordercontainer > div {
+  background-color: #ffffff;
+  border: 0vh solid #ffffff;
+  padding: 0px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.modaldiscountcontainer {
+  display: grid;
+  grid-template-columns: 50% 25% 25%;
+  background-color: #ffffff;
+  padding: 0px;
+}
+.modaldiscountcontainer > div {
+  background-color: #ffffff;
+  border: 0vh solid #ffffff;
+  padding: 0px;
+  font-size: 30px;
+  text-align: center;
+}
+.modalpricecontainer {
+  display: grid;
+  grid-template-columns: 90% 10%;
+  background-color: transparent;
+  padding: 0px;
+}
+.modalpricecontainer > div {
+  background-color: transparent;
+  border: 0vh solid transparent;
+  padding: 0px;
+  font-size: 30px;
+  text-align: center;
+}
+.mobilepricecontainer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: transparent;
+  padding: 0px;
+}
+.mobilepricecontainer > div {
+  background-color: transparent;
+  border: 0vh solid transparent;
+  padding: 0px;
+  font-size: 30px;
+  text-align: center;
+}
+
